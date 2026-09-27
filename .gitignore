@@ -1,0 +1,29 @@
+# Python environments and generated files
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local secrets and editor settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+*.swp
+
+# Runtime data and local training data (provenance/license not included)
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+data/*.csv
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
